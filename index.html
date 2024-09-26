@@ -58,7 +58,7 @@
             text-transform: uppercase;
         }
 
-        input[type="text"], select {
+        input[type="text"], select, input[type="date"] {
             width: 60%;
             display: block;
             padding: 10px;
@@ -184,6 +184,9 @@
                 <input type="text" name="facuilty" id="facuilty" required oninput="convertToUpperCase(this)">
             </div>
 
+            lable for="date">Exam Date:</lable>
+            <input type="date" name="date" required>
+            
             <button type="submit">Submit</button>
             <button id="reset-button">Reset Time Slots</button>
         </form>
